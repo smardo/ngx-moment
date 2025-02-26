@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as moment from 'moment';
+import moment from 'moment';
 
 // See https://github.com/ng-packagr/ng-packagr/issues/217 for why this is needed:
 const momentConstructor = moment;
