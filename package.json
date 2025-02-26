@@ -8,7 +8,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk --inspect ./node_modules/jest/bin/jest.js --runInBand",
-    "prepublish": "ng build"
+    "prepublish": "ng build",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
